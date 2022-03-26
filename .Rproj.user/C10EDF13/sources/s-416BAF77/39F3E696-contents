@@ -1,0 +1,54 @@
+---
+title: "<center>Demostración análisis de datos</center>"
+output:
+  html_document:
+    css: styles.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("data.R")
+```
+
+<br>
+<br>
+
+## Sobre la página
+
+Esta es una demostración de análisis cuantitativo sobre los últimos
+3200 tweets de la cuenta de [Gustavo Petro]("https://twitter.com/petrogustavo").
+
+Realizada en la clase del PhD. Juan Sebastián López "Marcos para la sistematización y el análisis de datos" del programa de maestría de "Educación" de la Universidad El Bosque, Colombia. 
+
+La demostración estuvo a cargo de [Rafael López Valverde](https://rafalopezv.io/about/)
+
+Última actualización: `r lubridate::now() - 3600`
+
+<br>
+
+## Palabras más usadas por G. Petro
+
+```{r echo=FALSE}
+p2
+```
+
+## A qué hora tuitea G. Petro
+
+```{r echo=FALSE}
+p1
+```
+
+Puedes ver el código con el que se programó la página y la demostración haciendo click sobre la siguiente imagen.
+
+<center><img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" height = "80px" width = "90px"></center>
+
+<br>
+
+
+
+
+
+
+
+
+
