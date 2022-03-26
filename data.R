@@ -15,7 +15,7 @@ df <- get_timeline(user = "petrogustavo", n = 3200)
 df$created_at <-  df$created_at - dhours(5)
 
 # a qué hora publica petro
-df %>% 
+(df %>% 
   mutate(
     hora = hour(created_at)
   ) %>% 
@@ -36,13 +36,13 @@ df %>%
     y = "número de tweets"
   ) +
   theme(plot.subtitle = element_text(family = "IBM Plex Sans")) -> p1
-
+)
 # petro retuitea?
 tidytext::get_stopwords(language = "es") %>% 
   pull(word) %>% 
   unique() -> remove
 
-df %>% 
+(df %>% 
   unnest_tokens(palabras, text) %>% 
   count(palabras) %>% 
   mutate(
@@ -69,7 +69,7 @@ df %>%
     y = "número de veces que la palabra fue mencionadas", 
     x = ""
   ) +
-  theme(plot.subtitle = element_text(family = "IBM Plex Sans")) -> p2
+  theme(plot.subtitle = element_text(family = "IBM Plex Sans")) -> p2)
   
   
   

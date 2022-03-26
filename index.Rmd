@@ -40,7 +40,8 @@ p1
 
 Puedes ver el código con el que se programó la página y la demostración haciendo click sobre la siguiente imagen.
 
-<center><img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" height = "80px" width = "90px"></center>
+<center><a href="https://github.com/rafalopezv/Demostracion-analisis-de-datos"><img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" height = "80px" width = "90px"></a>
+</center>
 
 <br>
 
