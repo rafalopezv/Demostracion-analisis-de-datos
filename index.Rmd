@@ -12,6 +12,14 @@ source("data.R")
 
 <br>
 <br>
+<hr>
+<mark>La presentación en pdf la pueden descargar [aquí](https://rafalopezv.io/static/clase_juan.pdf). La versión en video, que permite ver los efectos, se descarga [aquí](https://rafalopezv.io/static/clase_juan.m4v).</mark>  
+
+<mark>Dajaré la página en vivo por un mes hasta que puedan descargar la presentación, acceder y/o descargar el código de programación.</mark>  
+
+<mark>En la penúltima lámina de la presentación están mis sugerencias de lectura.</mark>  
+<hr>
+<br>
 
 ## Sobre la página
 
